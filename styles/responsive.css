@@ -21,18 +21,19 @@
     font-size: 1rem;
   }
 
-  .buttonNav > span:nth-of-type(2) {
-    font-size: 1.3rem;
-    color: dimgray;
-  }
+}
 
+@media (min-width: 838px) {
+  .navItem {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 992px) {
 
   .navItem {
     font-size: 1.5rem;
-    margin: 0 15px;
+    margin: 0 12px;
   }
 
   .buttonNav > span:nth-of-type(2) {

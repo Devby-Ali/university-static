@@ -1,21 +1,17 @@
 @font-face {
-    font-family: "raleway";
-    src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+    font-family: "Estedad Light";
+    src: url("../fonts/Estedad/woff2/Estedad-Thin.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "raleway Medium";
-    src: url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+    font-family: "Estedad";
+    src: url("../fonts/Estedad/woff2/Estedad-Light.woff2") format("woff2");
 }
-
-
 @font-face {
-    font-family: "lobster";
-    src: url("../fonts/Lobster/Lobster-Regular.ttf") format("truetype");
+    font-family: "Estedad Medium";
+    src: url("../fonts/Estedad/woff2/Estedad-Medium.woff2") format("woff2");
 }
-
-
 @font-face {
-    font-family: "raleway semibold";
-    src: url("../fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+    font-family: "Estedad Bold";
+    src: url("../fonts/Estedad/woff2/Estedad-Bold.woff2") format("woff2");
 }
