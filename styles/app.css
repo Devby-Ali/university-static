@@ -1,0 +1,186 @@
+:root {
+  --primary-color: #4169e1;
+  --secondary-color: #87cefa;
+  --white: #fff;
+  --grey: #d2d2d2;
+  --dark: #2f313a;
+  --app-bg: #e4f5ff;
+  --primary-font: "raleway", Arial, Helvetica, sans-serif;
+  --primary-font-md: "raleway Medium", Arial, Helvetica, sans-serif;
+  --primary-font-sb: "raleway regular", Arial, Helvetica, sans-serif;
+  --secondary-font: "lobster", Arial, Helvetica, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px */
+  scroll-behavior: smooth;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+  background-color: var(--app-bg);
+  overflow-x: hidden;
+}
+
+/*
+
+-- Reset Style --
+
+*/
+
+a {
+  text-decoration: none;
+}
+
+/*
+
+-- Helper Class --
+
+*/
+
+/*
+
+-- Component --
+
+*/
+
+.btn {
+  border-radius: 10rem;
+  color: var(--white);
+  background-color: var(--dark);
+  width: 18rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: var(--primary-font-md);
+  transition: all 250ms ease-in;
+}
+
+/*
+<---- App Style ---->
+*/
+
+/*
+<---- Header ---->
+*/
+
+.container-header {
+  direction: rtl;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.container-iconNav {
+  display: flex;
+  align-items: center;
+}
+
+.logoHeader {
+  width: 70px;
+  height: 85px;
+  margin: 0;
+}
+
+.navIconMob {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: none;
+}
+
+.navItem {
+  color: gray;
+  font-weight: 700;
+  transition: .4s all;
+  margin: 0 10px;
+}
+
+.buttonNav {
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: var(--blue);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.buttonNav > span:nth-of-type(1) {
+  color: #2f313a;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+/*
+<---- Main ---->
+*/
+
+.container-headerHome {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgUniver {
+  background: url(/images/image2.jpg) no-repeat center;
+  background-size: auto;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+  filter: opacity(0.4);
+  box-shadow: inset 0 -83px 57px #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 125px;
+  z-index: -1;
+}
+
+.figore_logo {
+  width: 180px;
+}
+
+.titleSite {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.paragraph-headerHome {
+  font-family: nastaliq;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 5px;
+}
