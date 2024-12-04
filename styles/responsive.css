@@ -2,6 +2,18 @@
 }
 
 @media (min-width: 576px) {
+  
+    .css-1qsxih2 {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+
+    .css-1ukeo96 {
+      flex-basis: 100%;
+      -moz-box-flex: 0;
+      flex-grow: 0;
+      max-width: 100%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -21,6 +33,20 @@
     font-size: 1rem;
   }
 
+  .css-xs25ei {
+    flex-basis: 100%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+
+  .css-vx7824 {
+    flex-basis: 100%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+
 }
 
 @media (min-width: 838px) {
@@ -32,26 +58,74 @@
 @media (min-width: 992px) {
 
   .navItem {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 0 12px;
   }
 
   .buttonNav > span:nth-of-type(2) {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .css-1ukeo96 {
+    flex-basis: 50%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+
+  .css-xs25ei {
+    flex-basis: 100%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+
+  .css-vx7824 {
+    flex-basis: 100%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
   }
 
 }
 
 @media (min-width: 1200px) {
   .navItem {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    margin: 0 18px;
   }
 
   .buttonNav > span:nth-of-type(2) {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
-}
+  .css-1qsxih2 {
+    max-width: 1200px;
+  }
 
-@media (min-width: 1400px) {
+  .css-1ukeo96 {
+    flex-basis: 50%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+
+  .css-xs25ei {
+    flex-basis: 33.3333%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 33.3333%;
+  }
+
+  .fixStyleFooter {
+    align-items: center;
+  }
+
+  .css-vx7824 {
+    flex-basis: 33.3333%;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    max-width: 33.3333%;
+  }
+
 }
