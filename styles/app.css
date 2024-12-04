@@ -111,7 +111,7 @@ a {
 
 .navItem {
   color: rgb(87, 87, 87);
-  transition: .4s all;
+  transition: 0.4s all;
   margin: 0 7px;
 }
 
@@ -147,7 +147,6 @@ a {
 <---- Main ---->
 */
 
-
 /*
 <---- Header Home ---->
 */
@@ -176,24 +175,43 @@ a {
 
 .figore_logo {
   width: 180px;
-  padding-top: 40px;
-}
-
-.figore_logo-igap {
-  width: 140px;
-  padding-top: 60px;
+  margin-top: 8rem;
 }
 
 .titleSite {
-  font-size: 4rem;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-size: 4.5rem;
+  font-weight: 900;
 }
 
 .paragraph-headerHome {
+  margin-top: 2rem;
   font-weight: 700;
   font-size: 2rem;
   text-align: center;
+}
+
+.container__headerHome-btn {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.headerHome-btn {
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: forestgreen;
+  padding: 0.8rem 0;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.headerHome-btn--link {
+  color: #fff;
 }
 
 
@@ -220,22 +238,23 @@ a {
   outline: none;
   border-radius: 10px;
   padding: 10px;
-  margin: 10px;
+  margin: 0 10px 30px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 20px -10px var(--blue);
+  box-shadow: 0 0 20px -10px forestgreen;
 }
 
 .icon-alert {
-  color: var(--blue);
+  color: forestgreen;
   display: flex;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 0 10px;
 }
 
 .container-downloadApp {
+  margin-top: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,7 +294,16 @@ a {
   margin: 10px;
   width: 300px;
   height: 300px;
-  transition: .5s all;
+  transition: 0.5s all;
+}
+
+.figore_logo-box {
+  width: 150px;
+  opacity: 90%;
+}
+
+.figore_logo-igap {
+  width: 130px;
 }
 
 .btnSupport {
@@ -284,7 +312,7 @@ a {
   justify-content: center;
   padding: 10px;
   margin: 5px;
-  background-color: var(--blue);
+  background-color: forestgreen;
   color: #fff;
   border-radius: 10px;
   width: 270px;
@@ -296,21 +324,21 @@ a {
   padding: 0 7px;
 }
 
-
 .container-allUserLink {
+  margin-top: 4rem;
   padding: 20px 0;
 }
 
 .title-userLink {
   text-align: center;
-  font-family: nastaliq;
   font-weight: 700;
   padding: 10px;
   margin: 10px;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
-.container-allUserLink > div:nth-of-type(1), .container-allUserLink > div:nth-of-type(3) {
+.container-allUserLink > div:nth-of-type(1),
+.container-allUserLink > div:nth-of-type(3) {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,7 +364,7 @@ a {
 
 .Box-userLinks {
   height: 50%;
-  padding: 5px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -347,7 +375,7 @@ a {
   height: 100%;
   border-radius: 10px;
   box-shadow: 0 0 20px -10px #000000b2;
-  transition: .7s all;
+  transition: 0.7s all;
   padding: 10px;
   overflow: hidden;
 }
@@ -363,7 +391,7 @@ a {
 }
 
 .userLink-HomePAge > span:nth-of-type(1) {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .userLink-HomePAge > span {
@@ -371,23 +399,21 @@ a {
   display: flex;
   padding: 5px;
   margin: 5px;
-  transition: .7s all;
+  transition: 0.7s all;
 }
 
 .titleUserLink {
-  font-size: .8rem !important;
+  font-size: 0.8rem !important;
 }
 
 .userLink-HomePAge > span:nth-of-type(2) {
   font-family: nastaliq;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .container-allUserLink > div:nth-of-type(3) {
   justify-content: space-around;
 }
-
-
 
 /*
 <---- Footer ---->
@@ -442,7 +468,7 @@ a {
   font-size: 1rem;
   padding: 5px 10px;
   margin: 5px;
-  transition: .5s all;
+  transition: 0.5s all;
   cursor: pointer;
   color: gray;
 }
@@ -480,7 +506,8 @@ a {
 .copyRightFooter {
   text-align: center;
   background-color: #fff;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: gray;
   padding: 10px;
 }
+
