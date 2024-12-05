@@ -175,7 +175,7 @@ a {
 
 .figore_logo {
   width: 180px;
-  margin-top: 8rem;
+  margin-top: 12rem;
 }
 
 .titleSite {
@@ -318,6 +318,10 @@ a {
   width: 270px;
 }
 
+.btnSupport:hover {
+  background-color: rgba(34, 139, 34, 0.747);
+}
+
 .iconBtnSupport {
   display: flex;
   align-items: center;
@@ -371,7 +375,7 @@ a {
 }
 
 .Box-userLinks > a {
-  width: 45%;
+  width: 43%;
   height: 100%;
   border-radius: 10px;
   box-shadow: 0 0 20px -10px #000000b2;
@@ -390,6 +394,14 @@ a {
   transform: rotate(-45deg);
 }
 
+.Box-userLinks > a:hover {
+  scale: 1.2;
+}
+
+.userLink-HomePAge:hover > span {
+  color: forestgreen;
+}
+
 .userLink-HomePAge > span:nth-of-type(1) {
   font-size: 3.5rem;
 }
@@ -403,7 +415,7 @@ a {
 }
 
 .titleUserLink {
-  font-size: 0.8rem !important;
+  font-size: 1.5rem !important;
 }
 
 .userLink-HomePAge > span:nth-of-type(2) {
