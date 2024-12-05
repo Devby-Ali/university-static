@@ -1,0 +1,23 @@
+#container {
+  height: 100vh;
+  background-color: lightskyblue;
+}
+
+#container > table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tbody-flex {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .besmeallah {
+    background-image: url(../images/besmeallah.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
