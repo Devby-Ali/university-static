@@ -9,15 +9,65 @@
 }
 
 .tbody-flex {
-    height: 85vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.besmeallah {
+  background-image: url(../images/besmeallah.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#loginTable {
+  background-color: #ffffff;
+  border-radius: 19px 19px 19px 1px;
+  -moz-border-radius: 19px 19px 19px 1px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 1px;
+  box-shadow: #282828 10px 10px 10px;
+  -moz-box-shadow: #282828 10px 10px 10px;
+  -webkit-box-shadow: #282828 10px 10px 10px;
+  behavior: url(Pages/css/PIE.htc);
+}
+
+.login__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__header {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-bottom: 1px solid #9c9c9c;
+}
+
+.login__body-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login__body-right {
+  margin-right: 20px;
+}
 
 
-  .besmeallah {
-    background-image: url(../images/besmeallah.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.username-form {
+  height: 40px;
+}
+.pass-form {
+  height: 40px;
+}
+.button-form {
+  height: 40px;
+}

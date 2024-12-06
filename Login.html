@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,39 +28,28 @@
                 cellspacing="0"
                 align="center"
               >
-                <tbody>
-                  <tr>
-                    <td align="center" width="100px" height="110">
+                <tbody class="login__content">
+                  <tr class="login__header">
+                    <td>
                       <!-- Uni Logo -->
                       <img
-                        src="Pages/images/organlogo.png"
+                        src="/images/Logo.png"
                         width="90"
-                        style="
-                          margin-left: 16px;
-                          margin-bottom: 6px;
-                          margin-top: 6px;
-                        "
                       />
                     </td>
                     <td align="center">
                       <!-- Uni Name -->
                       <img
-                        src="Pages/images/amoozeshyar.png"
+                        src="/images/amoozeshyar.png"
                         width="150"
                         height="100"
                       />
                     </td>
                     <td align="center">
                       <img
-                        src="Pages/images/graduation.png"
+                        src="/images/graduation.png"
                         width="100"
                         height="100"
-                        align="middle"
-                        style="
-                          margin-bottom: 6px;
-                          margin-top: 6px;
-                          margin-right: 60px;
-                        "
                       />
                     </td>
                   </tr>
@@ -75,26 +64,18 @@
                                 <!-- <div> -->
                                 <table style="width: 100%; height: 100%">
                                   <tbody>
-                                    <tr>
+                                    <tr class="login__body-left">
                                       <td
                                         height="100%"
                                         align="right"
                                         style="vertical-align: top"
                                       >
-                                        <div
-                                          style="
-                                            padding-right: 6px;
-                                            margin-right: 2px;
-                                            height: 256px;
-                                            width: 486px;
-                                            overflow-y: auto;
-                                          "
-                                        >
+                                        <div class="">
                                           <!--  Messages -->
 
                                           <span>
                                             <p></p>
-                                            <center>
+                                           
                                               <h1
                                                 lable=""
                                                 style="
@@ -103,11 +84,13 @@
                                                   font-family: vazir, calibri,
                                                     tahoma;
                                                   font-size: 2rem;
+                                                  text-align: center;
+                                                  margin-bottom: 10px;
                                                 "
                                               >
                                                 سامانه دانشجويي
                                               </h1>
-                                            </center>
+                                            
                                             <p></p>
 
                                             <p></p>
@@ -167,9 +150,9 @@
                         name="form1"
                         id="loginform"
                       >
-                        <table border="0" align="center">
+                        <table class="login__body-right" border="0" align="center">
                           <tbody>
-                            <tr>
+                            <tr class="username-form">
                               <td>
                                 <input
                                   name="j_username"
@@ -182,7 +165,7 @@
                                 <span id="text1">: نام کاربری </span>
                               </td>
                             </tr>
-                            <tr>
+                            <tr class="pass-form">
                               <td>
                                 <input
                                   name="temp_j_password"
@@ -195,39 +178,9 @@
                                 <span id="text1">: کلمه عبور </span>
                               </td>
                             </tr>
+                       
 
-                            <tr>
-                              <td>
-                                <input
-                                  type="text"
-                                  name="jcaptcha"
-                                  value=""
-                                  autocomplete="off"
-                                  style="size: 4"
-                                />
-                              </td>
-                              <td>
-                                <span id="text1">: کد تصویر </span>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td colspan="2">
-                                <img
-                                  src="jcaptcha.jpg?rnd=-5970159543854716195"
-                                  style="
-                                    margin-left: 6px;
-                                    margin-bottom: 6px;
-                                    margin-top: 6px;
-                                  "
-                                  id="captchaimg"
-                                  width="224"
-                                  height="60"
-                                  border="1 solid #B0B0B0"
-                                />
-                              </td>
-                            </tr>
-
-                            <tr>
+                            <tr class="button-form">
                               <td>
                                 <input
                                   name="B1"
@@ -237,21 +190,7 @@
                                   style="margin-left: 30px"
                                 />
                               </td>
-                              <td>
-                                <a
-                                  name="refresh"
-                                  href="#"
-                                  onclick="return reloadImg('captchaimg');"
-                                  title="تصویر دیگر"
-                                  style="margin-left: 18px"
-                                >
-                                  <img
-                                    src="Pages/images/icons/refresh_.gif"
-                                    width="25"
-                                    border="0"
-                                  />
-                                </a>
-                              </td>
+          
                             </tr>
                             <tr>
                               <td colspan="2" align="center">
