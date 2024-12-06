@@ -32,10 +32,7 @@
                   <tr class="login__header">
                     <td>
                       <!-- Uni Logo -->
-                      <img
-                        src="/images/Logo.png"
-                        width="90"
-                      />
+                      <img src="/images/Logo.png" width="90" />
                     </td>
                     <td align="center">
                       <!-- Uni Name -->
@@ -75,22 +72,22 @@
 
                                           <span>
                                             <p></p>
-                                           
-                                              <h1
-                                                lable=""
-                                                style="
-                                                  color: #000080;
-                                                  font-style: bold;
-                                                  font-family: vazir, calibri,
-                                                    tahoma;
-                                                  font-size: 2rem;
-                                                  text-align: center;
-                                                  margin-bottom: 10px;
-                                                "
-                                              >
-                                                سامانه دانشجويي
-                                              </h1>
-                                            
+
+                                            <h1
+                                              lable=""
+                                              style="
+                                                color: #000080;
+                                                font-style: bold;
+                                                font-family: vazir, calibri,
+                                                  tahoma;
+                                                font-size: 2rem;
+                                                text-align: center;
+                                                margin-bottom: 10px;
+                                              "
+                                            >
+                                              سامانه دانشجويي
+                                            </h1>
+
                                             <p></p>
 
                                             <p></p>
@@ -150,14 +147,18 @@
                         name="form1"
                         id="loginform"
                       >
-                        <table class="login__body-right" border="0" align="center">
+                        <table
+                          class="login__body-right"
+                          border="0"
+                          align="center"
+                        >
                           <tbody>
                             <tr class="username-form">
                               <td>
                                 <input
                                   name="j_username"
                                   type="text"
-                                  id="user"
+                                  id="name"
                                   dir="ltr"
                                 />
                               </td>
@@ -178,19 +179,13 @@
                                 <span id="text1">: کلمه عبور </span>
                               </td>
                             </tr>
-                       
 
                             <tr class="button-form">
                               <td>
-                                <input
-                                  name="B1"
-                                  type="submit"
-                                  onclick="submitForm();"
-                                  value="ورود به سيستم"
-                                  style="margin-left: 30px"
-                                />
+                                <button id="login-button" type="button">
+                                  ورود به سیستم
+                                </button>
                               </td>
-          
                             </tr>
                             <tr>
                               <td colspan="2" align="center">
@@ -224,18 +219,11 @@
                   </tr>
                 </tbody>
               </table>
-              <script language="JavaScript" type="text/javascript">
-                var frmvalidator = new Validator("form1");
-                frmvalidator.addValidation(
-                  "j_username",
-                  "req",
-                  "شناسه كاربري را وارد كنيد"
-                );
-              </script>
             </td>
           </tr>
         </tbody>
       </table>
     </div>
+    <script type="module" src="scripts/app.js"></script>
   </body>
 </html>

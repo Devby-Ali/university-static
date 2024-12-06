@@ -4,7 +4,7 @@
   --white: #fff;
   --grey: #d2d2d2;
   --dark: #2f313a;
-  --app-bg: #e4f5ff;
+  --app-bg: #fff;
   --primary-font: "raleway", Arial, Helvetica, sans-serif;
   --primary-font-md: "raleway Medium", Arial, Helvetica, sans-serif;
   --primary-font-sb: "raleway regular", Arial, Helvetica, sans-serif;
@@ -119,27 +119,31 @@ a {
   color: green;
 }
 
+.button-n {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
 .buttonNav {
   border: none;
   outline: none;
   display: flex;
   align-items: center;
   background-color: rgba(34, 139, 34, 0.692);
-  color: #fff;
+  color: #541a8b7e;
   padding: 8px 10px;
   border-radius: 10px;
   cursor: pointer;
   position: relative;
 }
 
-.buttonNav > span:nth-of-type(1) {
+.buttonNav > span {
   font-size: 1.5rem;
-  display: flex;
-  align-items: center;
   padding-left: 5px;
 }
 
-.buttonNav > span:nth-of-type(2) {
+.buttonNav-title {
   font-size: 1.5rem;
 }
 
@@ -415,7 +419,7 @@ a {
 }
 
 .titleUserLink {
-  font-size: 1.5rem !important;
+  font-size: 1.3rem !important;
 }
 
 .userLink-HomePAge > span:nth-of-type(2) {
@@ -432,7 +436,7 @@ a {
 */
 
 .footer {
-  background-color: #f5f5f5;
+  background-color: #dbdbdb;
   padding: 10px;
 }
 
@@ -450,14 +454,14 @@ a {
 
 .titleFooter {
   font-family: nastaliq;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   padding: 10px;
   text-align: center;
   width: 100%;
 }
 
 .divAddress > span {
-  color: var(--blue);
+  color: rgb(23, 95, 23);
 }
 
 .divAddress > p {
@@ -466,8 +470,8 @@ a {
 }
 
 .Confirm-p {
-  font-size: 1rem;
-  color: gray;
+  font-size: 1.6rem;
+  color: rgb(100, 100, 100);
   text-align: justify;
   padding: 10px;
 }
@@ -477,12 +481,12 @@ a {
 }
 
 .itemLinkFooter {
-  font-size: 1rem;
+  font-size: 1.6rem;
   padding: 5px 10px;
   margin: 5px;
   transition: 0.5s all;
   cursor: pointer;
-  color: gray;
+  color: rgb(100, 100, 100);
 }
 
 .divCode {
